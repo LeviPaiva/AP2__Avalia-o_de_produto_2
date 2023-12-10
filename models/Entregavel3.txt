@@ -1,0 +1,74 @@
+Exemplo de extrutura necessário para aplicar operações.		
+
+Link github: https://github.com/LeviPaiva/AP2__Avaliacao_de_produto_2
+
+
+
+
+/* Clientes */
+
+{
+ 	"nomeCompleto": "Enrico Gollner",
+	"anoNascimento": 2004,
+	"telefone": 2799999999,
+	"logradouro": "Em uma galáxia muito, muito distante...",
+	"cpf": 29979245877,
+	"numeroConta": 277
+},
+{
+	"nomeCompleto": "Augusto Bernardo",
+	"anoNascimento": 2004,
+	"telefone": 2799999999,
+	"ocupacao": "Consultor SAP ABAP",
+	"logradouro": "Em uma galáxia de rico",
+	"cpf": 24422820444,
+	"numeroConta": 244
+},
+{
+	"nomeCompleto": "Levi Paiva",
+	"anoNascimento": 2004,
+	"telefone": 2792297799,
+	"ocupacao": "Consultor SAP ABAP",
+	"logradouro": "Em uma galáxia de rico",
+	"cpf": 24422820445,
+	"numeroConta": 244
+}
+
+)
+		/* Contas */
+{
+	"cpf": 29979245877,
+	"nomeDono": "Enrico Gollner",
+	"numeroConta": 277,
+	"saldoReal": 15000.0,
+	"saldoTemporario": 15000.0,
+	"agencia": 1,
+	"instituicao": "Banco Itau juros altos"
+},
+{
+	"cpf": 24422820444,
+	"nomeDono": "Augusto Bernardo",
+	"numeroConta": 244,
+	"saldoReal": 1440.0,
+	"saldoTemporario": 1220.0,
+	"agencia": 2,
+	"instituicao": "Banco Itau juros altos"
+}
+
+
+		/* Transação */
+{
+	"cpf": 29979245877, 
+        "numeroConta": 277,
+        "descricao": "Pagamento pelo SSD NVMe",
+        "contaOrigem": 277 ,
+        "contaDestino": 244,
+        "montante": 502,
+        "juros": 0,
+        "formaPagamento": "Transferência",
+        "tipoTransacao": "Retirada",
+        "dataEfetuada": 91223,
+        "dataVencimento": 91223	
+}
+
+
